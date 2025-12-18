@@ -3,9 +3,10 @@ let running = false;
 
 if (!("webkitSpeechRecognition" in window)) {
     alert("Use Google Chrome or Microsoft Edge");
+} else {
+    recognition = new webkitSpeechRecognition();
 }
 
-recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
 recognition.interimResults = true;
 
@@ -33,3 +34,4 @@ recognition.onresult = (event) => {
 recognition.onend = () => {
     if (running) recognition.start();
 };
+
