@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+/* 🔲 WHITE RECTANGULAR BOX */
+#output {
+    width: 85%;
+    min-height: 180px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: white;
+    color: black;
+
+    font-size: 28px;
+    border: 2px solid black;
+}
+
+/* Buttons */
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #0a84ff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dropdown */
+select {
+    padding: 8px;
+    font-size: 18px;
+}
